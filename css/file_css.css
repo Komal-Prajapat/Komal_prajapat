@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}.box1
+{
+
+  border: solid white;
+  border-radius: 5%;
+  margin: 0 0 13px 30px;
+  box-shadow:5px 5px 5px 5px lightblue;
+  /* padding: 10px;
+  background-color:rgb(99, 98, 98);
+   float: left;
+    display:inline;
+     text-align:center;
+     border-radius: 5%;
+     text-decoration: none; */
+ 
+} 
+
+.box1:hover{
+  transform: scale(1.2);
+}
+.box1
+{
+    
+  color: black;
+  width: 300px;
+   height: 300px;
+  align-items: center;
+   padding: 10px;
+   float: left;
+    display:inline;
+     
+     border-radius: 5%;
+     text-decoration: none;
+ margin: 80px 120px 0px 100px;
+} 
+.resume{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(195, 195, 206);
+    width: 91px;
+    font-size: larger;
+    padding: 2px;
+}
+p{
+    display: inline;  
+    text-align: center;
+}
+.container{
+    padding: 10px;
+    margin: 0px;
+    height: 550px;
+    width: 100%;
+    -webkit-clip-path: polygon(35% 0, 100% 0, 100% 100%, 34% 100%, 69% 48%);
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 34% 100%, 69% 48%);
+    background: rgb(195, 195, 206);
+    
+   }
+   /* media screen */
+   @media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+    display: none;
+      
+    }
+    nav a {
+       padding: 0%;
+        color: white;
+        display: inline;
+        border-color:blue;
+       text-decoration: none;
+        font-size:larger;
+    }
+     .box1 {
+margin-left: 10px;
+margin-top: 100px;
+padding: 10px;    
+    }
+    .menu{
+        width: 100%;
+        color: white;
+        height: 50px;
+        background: #000;
+      font-size: medium;
+    }
+    .menu a {
+        color: white;
+        padding: 10px;
+        display: inline;
+       margin-left: 5px;
+        text-decoration: none;
+        font-size:larger;
+    }
+    .my_img{
+        margin: 0px;
+        padding: 0px;
+        width: 500px;
+    }
+    .resume{
+        width: 150px;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .menu a { 
+        color: white;
+        
+    }
+  /* end media screen */
+nav a {
+    padding-top: 50px;
+    color:black;
+    display: inline;
+    border-color:blue;
+    margin:10px ;
+    text-decoration: none;
+    font-size:larger;
+   } 
+h1{
+    color: #000;
+}
+.my_img{
+   border-radius: 100%;
+    width: 300;
+    display: inline;
+    margin-left: 300px;
+   margin-top: 110px;
+}
+h4{
+    display: inline;
+}
